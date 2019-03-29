@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { header } from 
+
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,5 @@ import { header } from
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'zagat';
 }
