@@ -1,45 +1,12 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <div class="zagat-logo">
-        </div>
-        <div class="search-place-near">
-        </div>
-        <div class="lastest-city-portland">
-        </div>
-      </div>
-      <div class="citys best">
-        <img ng-src="string"></img>
-        <h3>City's Best: Portland</h3>
-        <a ng-href="http://www.gravatar.com/avatar/{{hash}}">THE ESSENTIALS</a>
-        <a ng-href="http://www.gravatar.com/avatar/{{hash}}">TOP GUIDES</a>
-        <a ng-href="http://www.gravatar.com/avatar/{{hash}}">DISHES AND DRINKS</a>
-        <button type="button" name="button">VIEW THE GUIDE</button>
-      </div>
-      <div class="lastest">
-        <h3>The Lastest</h3>
-        <h2>IN PORTLAND</h2>
-      </div>
-      <div class="best-section">
-        <div class="best-rest">
-
-        </div>
-        <div class="best-bars">
-
-        </div>
-        <div class="things-to-do">
-
-        </div>
-        <div class="">
-          <button type="button" name="button"></button>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Welcome,{{userName}}!</h1>
+    <form>
+      <input class="nameInput" [(ngModel)]="userName" type="text" name="user">
+    </form>
+    <h1> To Do List {{month}}/{{day}}/{{year}}</h1>
+    <h3>{{currentFocus}}</h3>
+    <app-task-list [childTaskList]="masterTaskList" (clickSender)="editTask($event)"></app-task-list>
+    <app-edit-task [childSelectedTask]="selectedTask" (clickedDone)="finishedEditing()"></app-edit-task>
+  </div>
+</div>
