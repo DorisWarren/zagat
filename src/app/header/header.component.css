@@ -3,10 +3,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 80px;
-  width:980px;
   align-items: center;
   align-content: center;
+  color: #656666;
+  font:15px/20px;
+
 }
 
 .zagat-logo {
@@ -16,7 +17,10 @@
 .portlands-latest {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
 
+}
+#words {
+  letter-spacing: .086em;
+  text-transform: uppercase;
+  padding-right: 40px;
 }
