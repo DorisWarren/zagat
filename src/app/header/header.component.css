@@ -21,11 +21,13 @@ padding-left: 10px;
 }
 
 .search-great-places{
+  padding: -5px 0px;
   border-right: 1px solid #d0d2d3;
   border-bottom: 1px solid #d0d2d3;
-  letter-spacing: .013em;
-  padding-right: 70px;
+  letter-spacing: .03em;
+  padding-right: 90px;
   
+
 }
 
 .portlands-latest {
