@@ -6,7 +6,8 @@
 
 ### Description
 
-**JavaScript Week 4** 
+**JavaScript Week 4** Rebuild of Zagat Website using Angular CLI framework . [link](https://www.zagat.com/portland). 
+* _
 
 ## Development server
 
