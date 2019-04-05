@@ -56,10 +56,6 @@
   "defaults": {
     "styleExt": "css",
     "component": {}
-  },
-  "schematics": {
-      "@schematics/angular:component": {
-      "styleext": "scss"
-    }
   }
+
 }
