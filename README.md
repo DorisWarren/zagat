@@ -1,12 +1,14 @@
 # Zagat
 
-#### Epicodus April 5 ,2019
+### Epicodus Week 4 Angular
+
+### Published April 5, 2019
 
 ### _Author Doris Warren_
 
 ### Description
 
-**JavaScript Week 4** Rebuild of Zagat Website using Angular CLI version 1.6.5 structural framework. [Zagat](https://www.zagat.com/portland).
+**JavaScript Week 4** Rebuild of [Zagat](https://www.zagat.com/portland)Website using Angular CLI version 1.6.5 structural framework, Firebase database and Google Maps API .
 
 ### Setup | Installation Requirements
 * _Clone this repository from Github [link](https://github.com/DorisWarren/doctor-look-up.git)._
@@ -15,6 +17,7 @@
 * _On command line enter the following_
   * _$ npm Install_
   * _$ ng serve --o_
+
 * _Application requires API key._
   * _Instructions_
     *  _Create a file named .env in root directory_
