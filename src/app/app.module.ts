@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TheLatestComponent } from './the-latest/the-latest.component';
+import { BestComponent } from './best/best.component';
 // import { masterFirebaseConfig } from './api-keys';
 // import { AngularFireModule } from 'angularfire2';
 // import { AngularFireDatabaseModule } from 'angularfire2/database';
@@ -20,7 +21,8 @@ import { TheLatestComponent } from './the-latest/the-latest.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    TheLatestComponent
+    TheLatestComponent,
+    BestComponent
   ],
   imports: [
     BrowserModule,
