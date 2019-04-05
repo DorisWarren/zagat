@@ -12,3 +12,13 @@ body {
   background-size: cover;
   background-position: 0% 50%;
 }
+
+.heroMessage {
+  width: 445px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: #fff;
+
+}
