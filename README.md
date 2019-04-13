@@ -10,6 +10,20 @@
 
 **JavaScript Week 4** Rebuild of [Zagat](https://www.zagat.com/portland) Website using Angular CLI version 1.6.5 structural framework, Firebase Database and Google Maps API .
 
+### Current Features
+* _Currently the site is only minimally styled. UI|UX along with responsiveness are planned._
+
+### Planned Features
+* _Full functional website_
+* _Dynamic routing between city pages_
+* _Populating blog tiles with data, inputed by users_
+* _Deployment to Firebase_
+* _Hosting of city data on firebase_
+
+### Stretch Goals
+* _Pulling cities from remote database_
+* _Drop-down menus_
+
 ### Setup | Installation Requirements
 * _Clone this repository from Github [Zagat](https://github.com/DorisWarren/zagat)._
 * _Navigate to project from command line._
